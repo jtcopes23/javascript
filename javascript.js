@@ -185,7 +185,7 @@ console.log(result);
 const array =['a', 'b', 'c']
 array.forEach(element => console.log(element))
 
-//.map()method
+//.map()method takes a aurgement of call back function and returns a new array, it takes an aurgument of a callback function and returns a new array!
 const array1=[1,4,9,16];
 const map1 = array1.map(x =>x*2);
 console.log(map1);
